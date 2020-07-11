@@ -1,0 +1,63 @@
+a:link {
+  color: #00ff00;
+}
+a:visited {
+  color: #00ff00;
+}
+a:hover {
+  color: #0000ee;
+}
+a:active {
+  color: #00ff00;
+}
+* {
+  background-color: #000000;
+  color: #00ff00;
+}
+div * {
+  color: #00ff00;
+}
+div.SettingsGroupHeading {
+  background-color: #000000;
+}
+span * {
+  background-color: #000000;
+}
+#MainToolbar,
+#MainToolbarButtons ul a:link,
+#MainToolbarButtons ul a:visited,
+#MainToolbarShortcut a:link,
+#MainToolbarShortcut a:visited,
+a#GSN.TextButton,
+span#Banner.Banner,
+#Pass.TextButton.Pass,
+#SpellCheck.TextButton,
+#Post.TextButton,
+#PostAndGo.TextButton,
+input#Shortcut.unfilled,
+p.Highlight
+{
+background-color: #000000;
+color: #00ff00;
+border: 1px solid #ffffff;
+}
+a.TextButton,
+a.Selected,
+a,
+th,
+option
+{
+background-color: #000000 !important;
+color: #00ff00 !important;
+}
+a#MyListNav.MyListNav.Nav
+{
+border-left: 0px;
+}
+a#ConfBannerText.ConfBannerText,
+a#KeepNew.TextButton.KeepNew,
+div.SettingsSaveAndClose,
+span#MyListBanner.MyListBanner
+{
+color: #00ff00;
+}
